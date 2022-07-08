@@ -63,10 +63,10 @@ global.location = "indonesia" //ur location
 //bot bomdy 
 global.owner = ['6283805685278']
 global.ownertag = '6283805685278' //ur tag number
-global.botname = 'Marxcly-bot' //ur bot nam
+global.botname = 'Marcxl-Bot`MD' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //ur website to be displayed
-global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
+global.botscript = 'https://github.com/Mshunone' //script link
 global.reactmoji = "😘" //ur menu react emoji
 global.themeemoji = "🦄" //ur theme emoji
 global.packname = "di buat oleh " //ur sticker watermark packname
@@ -106,13 +106,13 @@ global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done coy ✓',
-    admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'bot jadiin Admin dulu!',
-    owner: 'buat Owner doang!',
-    group: 'bisa di pakek di grub doang!',
-    private: 'bisa di pakek di cht pribadi!',
+    admin: 'Khusu buat admin dek!',
+    botAdmin: 'Bot jadiin Admin dulu!',
+    owner: 'Buat Owner doang!',
+    group: 'Bisa di pakek di grub doang!',
+    private: 'Bisa di pakek di cht pribadi!',
     bot: 'This Feature Is Only For Bot',
-    wait: 'wait process...',
+    wait: 'Wait process...',
     linkm: 'Mana link?',
     error: 'Error!!',
     endLimit: 'limit lu abis cht owner biar di kasi limit',
