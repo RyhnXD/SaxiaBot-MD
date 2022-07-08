@@ -55,7 +55,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
 global.vcardowner = ['6283805685278'] //ur owner number
-global.ownername = "Marxcly" //ur owner name
+global.ownername = "Marcell"
 global.ytname = "ga ada" //ur yt chanel name
 global.socialm = "GitHub:MshuoneDGXeon" //ur github or insta name
 global.location = "indonesia" //ur location
@@ -63,7 +63,7 @@ global.location = "indonesia" //ur location
 //bot bomdy 
 global.owner = ['6283805685278']
 global.ownertag = '6283805685278' //ur tag number
-global.botname = 'Marxcly-bot' //ur bot name
+global.botname = 'Marxcly-bot' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //ur website to be displayed
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
@@ -107,18 +107,18 @@ global.sp = '⭔'
 global.mess = {
     success: 'Done coy ✓',
     admin: 'This Feature Is Only For Admin!',
-    botAdmin: 'Bot Must Be Admin!',
-    owner: 'buat Owner!',
-    group: 'Feature Used Only For Groups!',
-    private: 'Features Used Only For Private Chat!',
+    botAdmin: 'bot jadiin Admin dulu!',
+    owner: 'buat Owner doang!',
+    group: 'bisa di pakek di grub doang!',
+    private: 'bisa di pakek di cht pribadi!',
     bot: 'This Feature Is Only For Bot',
     wait: 'wait process...',
     linkm: 'Mana link?',
     error: 'Error!!',
-    endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
-    ban: 'You have been banned by the owner, if you want to be unbanned, chat owner.',
-    nsfw: 'The nsfw feature has not been activated, please contact the admin to activate',
-    banChat: 'The bot was banned in this group, please contact the owner to unban'
+    endLimit: 'limit lu abis cht owner biar di kasi limit',
+    ban: 'lu di banned mau buka cht owner',
+    nsfw: 'anj sange, fitur nya off coy',
+    banChat: 'bot banned cht lu'
 }
     global.limitawal = {
     premium: "Infinity",
