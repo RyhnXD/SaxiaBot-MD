@@ -8970,7 +8970,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"rows": [
 									{
 										"title": "Thanks to My"
-										"description": "Thanks my sensei bot and my komputer/hp",
+										"description": "Displays The List Of bot",
 										"rowId": `${prefix}owner
 									}
 								]
