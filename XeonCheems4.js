@@ -8956,7 +8956,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Chat With Fellow Users",
+								"title": "Chat With Fellow Users 🌝",
 								"rows": [
 									{
 										"title": "Anonymous Chat Menu 🙎🏻‍♂️",
@@ -8966,12 +8966,12 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Credit",
+								"title": "Credit ©️",
 								"rows": [
 									{
-										"title": "Thanks to My"
-										"description": "Displays The List Of bot",
-										"rowId": `${prefix}owner
+										"title": "Thanks To ❤️",
+										"description": "Displays The List Of Credit Of The Bot !!",
+										"rowId": `${prefix}tqtt`
 									}
 								]
 							}
