@@ -67,8 +67,8 @@ global.botname = 'Marcxl-Bot`MD' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //ur website to be displayed
 global.botscript = 'https://github.com/Mshunone' //script link
-global.reactmoji = "😘" //ur menu react emoji
-global.themeemoji = "🦄" //ur theme emoji
+global.reactmoji = "👋" //ur menu react emoji
+global.themeemoji = "✨" //ur theme emoji
 global.packname = "di buat oleh " //ur sticker watermark packname
 global.author = "Marxcl-bot" //ur sticker watermark author
 
