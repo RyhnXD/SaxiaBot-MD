@@ -621,7 +621,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
 //antivirtex by xeon
   if (antiVirtex) {
   if (budy.length > 3500) {
-  reply(`Somebody spammed virus!! Mark as read⚠️\n`.repeat(300))
+  reply(`Ohh no ad yg spam virtex!! Tenggelamkan⚠️\n`.repeat(300))
   reply(`\`\`\`「 Virus Detected 」\`\`\`\n\nSorry You Will Be Kicked !`)
   if (!isBotAdmins) return reply(mess.botAdmin)
   XeonBotInc.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
