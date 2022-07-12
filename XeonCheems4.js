@@ -8809,7 +8809,7 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                             }, {
                                 callButton: {
                                     displayText: 'Sewa',
-                                    id: 'sewa'
+                                     url: `${script}`
                                 }
                             }, {
                                 quickReplyButton: {
