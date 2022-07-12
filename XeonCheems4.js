@@ -8667,6 +8667,31 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                 XeonBotInc.sendContact(m.chat, global.vcardowner, m)
             }
             break
+case 'sewa': {
+reply(`「 *Mau sewa bot?* 」\n
+╔════════════════════╗
+║   ↓↓ ≥ Harga Sewa Bot ≤ ↓↓
+╠════════════════════╝
+║-Paket 1 minggu
+║2k/minggu
+║         
+║-Paket Perbulan          
+║ 5k/bulan          
+║
+║ -Paket Permanen 
+║ 25k
+║
+║*Pembayaran Dana & Pulsa*
+╠════════════════════
+║Dana: -
+║------
+║Pulsa: 083111136642
+╠════════════════════
+║ketik .owner jika berminat 
+╠═══════════════════╝`)
+}
+break
+
   case 'setmenu': {
             	if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
