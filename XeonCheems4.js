@@ -8673,19 +8673,19 @@ reply(`「 *Mau sewa bot?* 」\n
 ║   ↓↓ ≥ Harga Sewa Bot ≤ ↓↓
 ╠════════════════════╝
 ║-Paket 1 minggu
-║2k/minggu
-║         
-║-Paket Perbulan          
-║ 5k/bulan          
-║
-║ -Paket Permanen 
-║ 25k
-║
-║*Pembayaran Dana & Pulsa*
+║ 2k/minggu
+║-Paket Perbulan       
+║ 5k/bulan       
+║-Paket PertahuN       
+║ 50k/Tahun
+║ 
+║Dikit info aja duit nya 
+║ buat sewa RDP doang:)
+║*Pembayaran Dana & shopypay*
 ╠════════════════════
-║Dana: -
+║Dana: 
 ║------
-║Pulsa: 083111136642
+║shopyPay: 
 ╠════════════════════
 ║ketik .owner jika berminat 
 ╠═══════════════════╝`)
@@ -8994,7 +8994,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit ©️",
 								"rows": [
 									{
-										"title": "Sewa bot 🌝",
+										"title": "Sewa bot 😛",
 										"description": "Go to sewa The Bot !!",
 										"rowId": `${prefix}sewa`
 									}
