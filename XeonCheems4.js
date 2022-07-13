@@ -8668,7 +8668,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
 case 'sewa': {
-reply(`「 *Mau sewa bot?* 」\n
+reply(`「 Mau sewa bot? 」\n
 ╔════════════════════╗
 ║   ↓↓ ≥ Harga Sewa Bot ≤ ↓↓
 ╠════════════════════╝
@@ -8679,13 +8679,13 @@ reply(`「 *Mau sewa bot?* 」\n
 ║-Paket PertahuN       
 ║ 50k/Tahun
 ║ 
-║Dikit info aja duit nya 
-║ buat sewa RDP doang:)
-║*Pembayaran Dana & shopypay*
+║"Dikit info aja duit nya 
+║ buat sewa RDP doang:) "
+║*Pembayaran Dana & Gopay*
 ╠════════════════════
 ║Dana: 
 ║------
-║shopyPay: 
+║Gopay: 
 ╠════════════════════
 ║ketik .owner jika berminat 
 ╠═══════════════════╝`)
@@ -8994,7 +8994,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Credit ©️",
 								"rows": [
 									{
-										"title": "Sewa bot 😛",
+										"title": "Sewa bot 💎",
 										"description": "Go to sewa The Bot !!",
 										"rowId": `${prefix}sewa`
 									}
