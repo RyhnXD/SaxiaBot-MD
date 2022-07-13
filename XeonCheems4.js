@@ -8672,20 +8672,20 @@ reply(`「 Mau sewa bot? 」\n
 ╔════════════════════╗
 ║   ↓↓ ≥ Harga Sewa Bot ≤ ↓↓
 ╠════════════════════╝
-║-Paket 1 minggu
+║-Paket per minggu
 ║ 2k/minggu
-║-Paket Perbulan       
+║-Paket per Perbulan       
 ║ 5k/bulan       
-║-Paket PertahuN       
+║-Paket per PertahuN       
 ║ 50k/Tahun
 ║ 
 ║"Dikit info aja duit nya 
 ║ buat sewa RDP doang:) "
-║*Pembayaran Dana & Gopay*
+║" jngn asal tf cht owner dulu "
 ╠════════════════════
-║Dana: 
-║------
-║Gopay: 
+║Via:>
+║Dana :082335437447
+║Gopay:082335437447
 ╠════════════════════
 ║ketik .owner jika berminat 
 ╠═══════════════════╝`)
