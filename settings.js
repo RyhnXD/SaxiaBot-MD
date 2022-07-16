@@ -63,7 +63,7 @@ global.location = "indonesia" //ur location
 //bot bomdy 
 global.owner = ['6283805685278']
 global.ownertag = '6283805685278' //ur tag number
-global.botname = '哇Scnxia-Bot`V1' //ur bot nam
+global.botname = '哇Syxia-Bot`V1' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/EUexY1yhxAB6wjD9ZP6MOU" //ur website to be displayed
 global.botscript = 'https://github.com/Mshunone' //script link
