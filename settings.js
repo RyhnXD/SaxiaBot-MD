@@ -73,10 +73,10 @@ global.packname = "di buat oleh " //ur sticker watermark packname
 global.author = "Scnxia`Bot" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic01.jpg") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic01.jpg") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic01.jpg") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic01.jpg") //ur thumb pic
 
 //damtabase
 global.premium = ['6283805685278'] //ur premium numbers
@@ -115,14 +115,14 @@ global.mess = {
     wait: 'Wait process...',
     linkm: 'Mana link?',
     error: 'Error!!',
-    endLimit: 'limit lu abis cht owner biar di kasi limit',
+    endLimit: 'limit lu abis cht owner biar di kasi limit Atau sewa aja',
     ban: 'lu di banned mau buka cht owner',
     nsfw: 'anj sange, fitur nya off coy',
     banChat: 'bot banned cht lu'
 }
     global.limitawal = {
     premium: "Infinity",
-    free: 12,
+    free: 8,
     monayawal: 1000
 }
    global.rpg = {
@@ -133,7 +133,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
+global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic01.jpg')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
