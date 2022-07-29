@@ -9043,8 +9043,6 @@ await XeonBotInc.send5ButImg(from, `╔═══════✪「 OWNER 」
 ╠${prefix}group 
 ╠${prefix}resetgrouplink
 ╠${prefix}editinfo [option]
-╠${prefix}add [user]
-╠${prefix}kick [reply/tag]
 ╠${prefix}hidetag [text]
 ╠${prefix}tagall [text]
 ╠${prefix}antilinkgc [on/off]
