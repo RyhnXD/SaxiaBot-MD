@@ -67,7 +67,7 @@ global.botname = '哇Saxia-Bot`V1' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz" //ur website to be displayed
 global.botscript = 'https://github.com/Mshunone' //script link
-global.reactmoji = "💦" //ur menu react emoji
+global.reactmoji = "✨" //ur menu react emoji
 global.themeemoji = "✨" //ur theme emoji
 global.packname = "di buat oleh " //ur sticker watermark packname
 global.author = "Saxia`Bot (083111136642)" //ur sticker watermark author
@@ -97,7 +97,7 @@ global.rkyt = []
 global.wlcm = []
 global.gcrevoke = []
 global.autorep = []
-global.ntilink = []
+global.ntilink = [true]
 
 //omther
 global.sessionName = 'session'
