@@ -2288,6 +2288,7 @@ if (isBanChat) return reply(mess.banChat)
             }
             break
 	case 'kick': {
+                    if (!isCreator) return reply(mess.owner)
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
@@ -2298,6 +2299,7 @@ if (isBanChat) return reply(mess.banChat)
 	}
 	break
 	case 'add': {
+                    if (!isCreator) return reply(mess.owner)
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
@@ -2308,6 +2310,7 @@ if (isBanChat) return reply(mess.banChat)
 	}
 	break
 	case 'promote': {
+                    if (!isCreator) return reply(mess.owner)
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
@@ -2318,6 +2321,7 @@ if (isBanChat) return reply(mess.banChat)
 	}
 	break
 	case 'demote': {
+                    if (!isCreator) return reply(mess.owner)
 		if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
 		if (!m.isGroup) return replay(`${mess.group}`)
