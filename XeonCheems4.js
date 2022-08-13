@@ -42,6 +42,7 @@ const primbon = new Primbon()
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/myfunc')
 const xeonkey = require('xfarr-api')
 const cheerio = require ("cheerio")
+const antilnk = JSON.parse(fs.readFileSync('./src/antilink.json'))
 const { XeonBotIncTiktok } = require('./lib/tiktokbyxeon')
 let { msgFilter } = require('./lib/antispam')
 let { covid } = require('./lib/covid.js') 
@@ -244,6 +245,7 @@ module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
     	const isAdmins = m.isGroup ? groupAdmins.includes(m.sender) : false
     	const isPremium = isCreator || global.premium.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) || false
         const AntiLink = m.isGroup ? ntilink.includes(from) : false
+        const isAntiLink = m.isGroup ? antilnk.includes(m.chat) : false
 const AntiLinkYoutubeVid = m.isGroup ? ntilinkytvid.includes(from) : false
 const AntiLinkYoutubeChannel = m.isGroup ? ntilinkytch.includes(from) : false
 const AntiLinkInstagram = m.isGroup ? ntilinkig.includes(from) : false
@@ -577,22 +579,21 @@ XeonBotInc.sendReadReceipt(from, m.sender, [m.key.id])}
             }
         }
 
-	// AntiLinkgc
-if (AntiLink) {
+	      // AntiLinkgc
+      if (isAntiLink && budy.match(/(https:\/\/chat.whatsapp.com)/gi)&& budy != undefined) {
+        if (budy.match(`chat.whatsapp.com`)) {
+        if (!isBotAdmins) return reply(`Jadikan Botnya Admin dong, Agar Bisa Kick Member Bandel T_T`)
 linkgce = await XeonBotInc.groupInviteCode(from)
-if (budy.includes(`https://chat.whatsapp.com/${linkgce}`)) {
-reply(`\`\`\`「 Group Link Detected 」\`\`\`\n\nYou won't be kicked by a bot because what you send is a link to this group`)
-} else if (isUrl(m.text)) {
+        let gclink = (`https://chat.whatsapp.com/`+linkgce)
+        let isLinkThisGc = new RegExp(gclink, 'i')
+        let isgclink = isLinkThisGc.test(m.text)
 bvl = `\`\`\`「 Group Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to post any link`
 if (isAdmins) return reply(bvl)
 if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
-kice = m.sender
 await XeonBotInc.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 XeonBotInc.sendMessage(from, {text:`\`\`\`「 Group Link Detected 」\`\`\`\n\n@${kice.split("@")[0]} Has been kicked because of sending link in this group`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
-} else {
-}
-}
+      } }
   // Antiwame by xeon
   if (antiWame)
   if (budy.includes(`wa.me`)) {
@@ -2674,6 +2675,29 @@ let anu = autosticker.indexOf(from)
 _autostick.splice(anu, 1)
 fs.writeFileSync('./database/autostickpc.json', JSON.stringify(autosticker))
 reply('autosticker pc deactivated')
+}
+break
+case 'antilink':
+   if (isBan) return reply(mess.ban)	 			
+if (isBanChat) return reply(mess.banChat)
+if (!m.isGroup) return replay(mess.group)
+if (!isBotAdmins) return replay(mess.botAdmin)
+if (!isAdmins && !isCreator) return replay(mess.admin)
+                if (args[0] === "on") {
+replay('Success in turning on group chat antilink in this group')
+antilnk.push(m.chat)
+fs.writeFileSync('./src/antilink.json', JSON.stringify(antilnk))
+m.reply('Sukses Mengaktifkan Mode Anti Link Di Group Ini ✓')
+} else if (args[0] === "off") {
+    antilnk.splice(m.chat, 1)
+fs.writeFileSync('./src/antilink.json', JSON.stringify(antilnk))
+replay('Success in turning off group chat antilink in this group')
+} else {
+    let buttons = [
+        { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
+        { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
+    ]
+    await XeonBotInc.sendButtonText(m.chat, buttons, `Mode Antilink`, ana.user.name, m)
 }
 break
 case 'antilinkgc': {
