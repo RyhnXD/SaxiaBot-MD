@@ -210,7 +210,7 @@ mediaUrl: `${websitex}`
 }}
 }
 XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
-			await XeonBotInc.groupParticipantsUpdate(anu.id, [num], 'remove')
+			if (num.startsWith(212)) return await XeonBotInc.groupParticipantsUpdate(anu.id, [num], 'remove')
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
                     const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
