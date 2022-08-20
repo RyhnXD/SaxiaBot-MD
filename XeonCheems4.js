@@ -1097,18 +1097,18 @@ const latensie = speed() - timestampe
                 const menulist = `┌─❖
 │「 Hi My pren👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  Mau apa ni? 😄☝️
+┌┤✑  Mau apa ni? 🤨🫵
 │└────────────┈ ⳹
 │
 └─「 Bot inpo 📝 」       
 │⚡Speed    : ${latensie.toFixed(4)} miliseconds
 │⏳Run Time  : ${runtime(process.uptime())}
 │🕊️Bot Name  : ${global.botname}
-│👤Total User : ${Object.keys(global.db.data.users).length}
-│🐾Total Hit : ${jumlahcmd}
+│👤Total User  : ${Object.keys(global.db.data.users).length}
+│🐾Total Hit  : ${jumlahcmd}
 │🐾Total Hit Harini : ${jumlahharian}
 └┬────────────┈ ⳹
-   │✑  Pencet Button ini 🤏
+   │✑  Pencet Button di bawah ini 🤏
    │✑  Pilih yg perlu aja jngan spam!!
    │✑  !! Ayo Donasi !!
    └─────────────┈ ⳹`
