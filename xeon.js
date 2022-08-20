@@ -176,18 +176,21 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
                 xeonbody = `┌─❖
 │「 𝗛𝗶 Broh👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
+   │✑  Welcome To 
    │✑  ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
-   │✑ ${xmembers}th
-   │✑  𝗝𝗼𝗶𝗻𝗲𝗱 : 
+   │✑  Intro yok :>
+   │🪪Nama  :
+   │🗃️Umur :
+   │🏠Askot:
+   │ 
+   │✑  ⌚Join Pada : 
    │✑ ${xtime} ${xdate}
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome cog 💐'}, type: 1}
+{buttonId: `wkwwk`, buttonText: {displayText: 'Welcome'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
@@ -195,7 +198,7 @@ mimetype: docs,
 jpegThumbnail:XeonWlcm,
 mentions: [num],
 fileName: `${metadata.subject}`,
-fileLength: 99999999999999,
+fileLength: 004020200800,
 caption: xeonbody,
 footer: `${botname}`,
 buttons: buttons,
@@ -219,20 +222,20 @@ XeonBotInc.sendMessage(anu.id, buttonMessage, {quoted:unicorndoc})
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 tod 👋 」
+│「 GoodBye tod 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
-   │✑  𝗟𝗲𝗳𝘁 
+   │✑  Keluar..
    │✑ ${metadata.subject}
-   │✑  𝗠𝗲𝗺𝗯𝗲𝗿 : 
+   │✑  Member : 
    │✑ ${xeonmembers}th
-   │✑  𝗧𝗶𝗺𝗲 : 
-   │✑  ${xeontime} ${xeondate}
+   │✑  🪦Pada Waktu : 
+   │>> ${xeontime} ${xeondate}
    └───────────────┈ ⳹`
       //if you copy the code value,
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
 let buttons = [
-{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara smoga di terima di sisi lain 🥀'}, type: 1}
+{buttonId: `wkwkwk`, buttonText: {displayText: 'Sayonara broh🥀'}, type: 1}
 ]
 let buttonMessage = {
 document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'),
