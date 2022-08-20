@@ -1104,15 +1104,13 @@ const latensie = speed() - timestampe
 │Speed : ${latensie.toFixed(4)} miliseconds
 │Run Time : ${runtime(process.uptime())}
 │Bot Name : ${global.botname}
-│Owner Name : ${global.ownername}
-│Owner No. : ${global.owner}
-│Host Name : ${os.hostname()}
 │Total User : ${Object.keys(global.db.data.users).length}
 │Total Hit : ${jumlahcmd}
 │Total Hit Harini : ${jumlahharian}
 └┬────────────┈ ⳹
    │✑  Pencet Button ini
    │✑  Pilih yg perlu aja jngan spam!!
+   │✑  !! Ayo Donasi !!
    └─────────────┈ ⳹`
    
    //randoming function
@@ -8707,13 +8705,13 @@ reply(`「 Mau sewa bot? 」\n
 ║-Paket per PertahuN       
 ║ 50k/Tahun
 ║ 
-║"Dikit info aja duit nya 
-║ buat sewa RDP doang:) "
+║
 ║" jngn asal tf cht owner dulu "
 ╠════════════════════
 ║Via:>
-║Dana :082335437447
-║Gopay:082335437447
+║Dana :
+║Gopay:
+║Shopepay:
 ╠════════════════════
 ║ketik .owner jika berminat 
 ╠═══════════════════╝`)
