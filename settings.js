@@ -54,24 +54,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.vcardowner = ['6283805685278'] //ur owner number
-global.ownername = "Unknown ツ"
+global.vcardowner = ['62895627514070'] //ur owner number
+global.ownername = "ʟᴜᴍɪɴᴏᴜs-ᴍᴅ"
 global.ytname = "Klo YT ga ada klo link ada :V." //ur yt chanel name
-global.socialm = "GitHub:MshuoneDGXeon" //ur github or insta name
+global.socialm = "GitHub:RyhnXD" //ur github or insta name
 global.location = "indonesia" //ur location
 
 //bot bomdy 
-global.owner = ['6283805685278']
-global.ownertag = '6283805685278' //ur tag number
-global.botname = '哇Saxia-Bot`V1' //ur bot nam
+global.owner = ['62895627514070']
+global.ownertag = '62895627514070' //ur tag number
+global.botname = 'ʟᴜᴍɪɴᴏᴜs-ᴍᴅ' //ur bot nam
 global.linkz = "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz" //your theme url which will be displayed on whatsapp
 global.websitex = "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz" //ur website to be displayed
 global.botscript = 'https://github.com/Mshunone' //script link
 global.reactmoji = "👋" //ur menu react emoji
 global.themeemoji = "✨" //ur theme emoji
-global.packname = "di buat oleh " //ur sticker watermark packname
-global.author = "Saxia`Bot (083111136642)" //ur sticker watermark author
-
+global.packname = "ʟᴜᴍɪɴᴏᴜs-ᴍᴅ ʙʏ " //ur sticker watermark packname
+global.author = "ʜᴀɴ ᴋᴏɴᴛᴋ ᴏᴡɴᴇʀ [62895627514070]"
 //Bot theme media
 global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
@@ -79,7 +78,7 @@ global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
 global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
 
 //damtabase
-global.premium = ['6283805685278'] //ur premium numbers
+global.premium = ['62895627514070'] //ur premium numbers
 global.ntilinkytvid = []
 global.ntilinkytch = []
 global.ntilinkig = []
@@ -105,20 +104,20 @@ global.antitags = true
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    success: 'Done coy ✓',
-    admin: 'Khusu buat admin dek!',
+    success: 'Done ✓',
+    admin: 'Khusu admin dek!',
     botAdmin: 'Bot jadiin Admin dulu!',
-    owner: 'Buat Owner doang!',
-    group: 'Bisa di pakek di grub doang!',
-    private: 'Bisa di pakek di cht pribadi!',
+    owner: 'Kʜᴜsᴜs ᴏᴡɴᴇʀ!',
+    group: 'ᴏɴʟʏ ᴄʜᴀᴛ ɢʀᴏᴜᴘ!',
+    private: 'ᴏɴʟʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ!',
     bot: 'This Feature Is Only For Bot',
     wait: 'Wait process...',
     linkm: 'Mana link?',
     error: 'Error!!',
     endLimit: 'limit lu abis cht owner biar di kasi limit Atau sewa aja',
     ban: 'lu di banned mau buka cht owner',
-    nsfw: 'anj sange, fitur nya off coy',
-    banChat: 'bot banned cht lu'
+    nsfw: 'ғɪᴛᴜʀ ɴsғᴡ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ',
+    banChat: 'yahahaa di banned awoakwok'
 }
     global.limitawal = {
     premium: "Infinity",
